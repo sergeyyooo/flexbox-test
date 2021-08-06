@@ -1,65 +1,67 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: space-between;
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
 }
 
-.header-wrapper, .footer-wrapper{
-    height: 60px;
-    background-color: aqua;
+.header-wrapper,
+.footer-wrapper {
+  height: 60px;
+  background-color: aqua;
 }
 
-.header-wrapper{
-    border-bottom: 3px solid black;
+.header-wrapper {
+  border-bottom: 3px solid black;
 }
 
-.footer-wrapper{
-    border-top: 3px solid black;
+.footer-wrapper {
+  border-top: 3px solid black;
 }
 
-.header-wrapper > h3{
-    font-size:45px;
-    text-align: center;
+.header-wrapper > h3 {
+  font-size: 45px;
+  text-align: center;
 }
 
-.block-item{
-    border: 2px solid black;
-    width: 100px;
-    height:100px;
-    padding:10px;
-    margin: 10px;
+.block-item {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
 }
 
-.block-item > h3{
-    font-size: 60px;
-    text-align: center;
+.block-item > h3 {
+  font-size: 60px;
+  text-align: center;
 }
 
-.red{
-    background-color: red;
+.red {
+  background-color: red;
 }
 
-.green{
-    background-color: green;
+.green {
+  background-color: green;
 }
 
-.blue{
-    background-color: blue;
+.blue {
+  background-color: blue;
 }
 
-.yellow{
-    background-color: yellow;
+.yellow {
+  background-color: yellow;
 }
 
 /* class for editing */
 
-.body-wrapper{
- 
+.body-wrapper {
+  display: flex;
+  /* flex-direction: column; */
 }
