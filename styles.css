@@ -35,7 +35,7 @@ main{
 
 .block-item {
   border: 2px solid black;
-  width: 100px;
+  width: calc(25% - 20px);
   height: 100px;
   padding: 10px;
   margin: 10px;
