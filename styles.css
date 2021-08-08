@@ -10,10 +10,13 @@ body {
   height: 100vh;
   justify-content: space-between;
 }
+main{
+  height: 100%;
+}
 
 .header-wrapper,
 .footer-wrapper {
-  height: 60px;
+  height: 53px;
   background-color: aqua;
 }
 
@@ -39,7 +42,7 @@ body {
 }
 
 .block-item > h3 {
-  font-size: 60px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -63,5 +66,38 @@ body {
 
 .body-wrapper {
   display: flex;
+  flex-wrap: wrap;
+  height: 100%;
   /* flex-direction: column; */
+}
+
+.aside{
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  width:calc(50% - 20px);
+  margin: 10px;
+  padding: 10px;
+}
+
+.left-aside{
+  background-color: beige;
+}
+
+.right-aside{
+  background-color: crimson;
+}
+
+.line{
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 20px);
+  margin: 10px;
+  padding: 10px;
+  min-height: 100px;
+  background-color: darkgray;
+}
+
+#submitButton{
+  margin-top: 10px;
 }
